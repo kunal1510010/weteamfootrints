@@ -1,0 +1,116 @@
+/* *{
+  box-sizing: border-box;
+} */
+
+footer{
+  /* height: calc(100vh - 8em); */
+  padding: 2em 0;
+  color: rgba(255,255,255);
+  font-family: 'Anonymous Pro', monospace;
+  /* font-family: 'Karla', sans-serif; */
+  background-color: rgb(25,25,25);
+  letter-spacing: 1px;
+}
+
+.wedo{
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.fb{
+  padding-top: 10px;
+}
+
+.c{
+  padding-bottom: 10px;
+}
+
+.fb4 ul{
+  color: white;
+  text-decoration: none;
+}
+
+.fb1, .fb2, .fb3, .fb4{
+  padding-bottom: 20px;
+}
+
+h5{
+  font-family: 'Philosopher', sans-serif;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+  color: #d19b59;
+}
+
+/* ***********links*************** */
+
+a{
+  color: white;
+  z-index: 1;
+  padding-left: 10px;
+}
+
+a:hover{
+  color: grey;
+}
+
+.fb a:hover{
+  color: #6083e5;
+}
+
+.in a:hover{
+  color: #ea569b;
+}
+
+.yt a:hover{
+  color: #ef4747;
+}
+
+/* **************links over*************** */
+
+
+/* ***********************Footer Anim *************************** */
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.line-1{
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    font-family: 'Philosopher', sans-serif;
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 2s steps(50) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 10em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+/* ***************************Footer Anim Over********************** */
+
+/* ************canvas************* */
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0; }
+/* *************canvas over************* */
